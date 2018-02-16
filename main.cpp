@@ -1,5 +1,5 @@
 #include <cstdint>
-#include <iostream>
+#include <iostream> 
 
 class CompIdx {
  public:
@@ -11,7 +11,7 @@ class CompIdx {
   void dummyF(uint8_t const x);
 
  private:
-  Enum value_;
+  Enum value_; 
 };
 
 void test(CompIdx const idx) {
